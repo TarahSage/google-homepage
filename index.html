@@ -1,6 +1,10 @@
 <html>
   <head>
     <title>Google</title>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- import font from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="description" content="Non-functional clone of Google Homepage">
     <meta name="keywords" content="HTML,CSS">
@@ -9,9 +13,36 @@
   </head>
   <body>
     <main>
-      <header></header>
-      <section></section>
-      <footer></footer>
+      <header>
+        <nav>
+          <a href="">Gmail</a>
+          <a href="">Images</a>
+          <!-- Placeholder text to be replaced with Icons -->
+          <a href="">Apps</a>
+          <a href="">Notifications</a>
+          <a href="">Account Photo</a>
+        </nav>
+      </header>
+      <section>
+        <div class="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" /></div>
+        <form>
+          <input type="text" name="search" id="searchbar"><br>
+          <input type="submit" value="Google Search" class="search-btn">
+          <input type="submit" value="I'm Feeling Lucky" class="search-btn">
+        </form>
+      </section>
+      <footer>
+        <div class="left-footer">
+          <a href="">Advertising</a>
+          <a href="">Business</a>
+          <a href="">About</a>
+        </div>
+        <div class="right-footer">
+          <a href="">Privacy</a>
+          <a href="">Terms</a>
+          <a href="">Settings</a>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
