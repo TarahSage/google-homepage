@@ -1,8 +1,8 @@
 <html>
   <head>
     <title>Google</title>
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css"  href="css/styles.css" />
     <!-- import font from google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
   <body>
     <main>
       <header>
-        <nav>
+        <nav class="float-right">
           <a href="">Gmail</a>
           <a href="">Images</a>
           <!-- Placeholder text to be replaced with Icons -->
@@ -24,20 +24,20 @@
         </nav>
       </header>
       <section>
-        <div class="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" /></div>
+        <div class="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="logo" /></div>
         <form>
           <input type="text" name="search" id="searchbar"><br>
-          <input type="submit" value="Google Search" class="search-btn">
-          <input type="submit" value="I'm Feeling Lucky" class="search-btn">
+          <input type="submit" value="Google Search" class="search-btn float-left" id="btn-left">
+          <input type="submit" value="I'm Feeling Lucky" class="search-btn float-right" id="btn-right">
         </form>
       </section>
       <footer>
-        <div class="left-footer">
+        <div class="float-left">
           <a href="">Advertising</a>
           <a href="">Business</a>
           <a href="">About</a>
         </div>
-        <div class="right-footer">
+        <div class="float-right">
           <a href="">Privacy</a>
           <a href="">Terms</a>
           <a href="">Settings</a>

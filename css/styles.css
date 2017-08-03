@@ -1,0 +1,37 @@
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+img {
+  display: block;
+}
+
+.logo {
+  padding-top: 20%;
+}
+
+.logo img,
+form {
+  margin: 25px auto;
+}
+
+form,
+#searchbar {
+  width:  400px
+}
+
+.search-btn {
+  margin: 10px;
+}
+
+#btn-left {
+  margin-left: 55px;
+}
+
+#btn-right {
+  margin-right: 55px;
+}
