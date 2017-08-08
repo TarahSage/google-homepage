@@ -1,17 +1,41 @@
-.float-right {
-  float: right;
+/* Initail Box Sizing and text decoration */
+
+.main-content {
+  min-height: calc(100vh - 105px);
 }
 
-.float-left {
-  float: left;
+header,
+footer {
+  height: 40px;
 }
+
+a {
+  text-decoration: none;
+  color: #545454;
+}
+
+a:hover {
+  color: #949494;
+}
+
+/* Nav Bar */
+
+nav {
+  padding-top: 10px;
+}
+
+nav a {
+  margin: 7px;
+}
+
+/* Main Content */
 
 img {
   display: block;
 }
 
 .logo {
-  padding-top: 20%;
+  padding-top: 5%;
 }
 
 .logo img,
@@ -24,9 +48,24 @@ form,
   width:  400px
 }
 
+#searchbar {
+  box-shadow: 0px 2px 6px 0px #f3f3f3,
+              0px 0px 0px 1px #ececec;
+}
+
 .search-btn {
+  color: #676767;
+  background-color: #F5F5F5;
+  box-shadow: 0px 0px 0px 1px #E5E5E5;
   margin: 10px;
 }
+
+.search-btn:hover {
+  color: #939393;
+  background-color: #e8e8e8;
+  box-shadow: 0px 1px 5px 1px #cacaca;
+}
+
 
 #btn-left {
   margin-left: 55px;
@@ -34,4 +73,28 @@ form,
 
 #btn-right {
   margin-right: 55px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f3f3f3;
+}
+
+footer div {
+  padding-top: 8px;
+}
+
+footer div a {
+  padding: 15;
+}
+
+/* Helpers */
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
 }
